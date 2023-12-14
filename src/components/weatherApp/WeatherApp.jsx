@@ -11,7 +11,7 @@ import { useState } from 'react'
 
 const WeatherApp = () => {
 
-    let api_key = 'f8fd8b4a60d73eacedb6048f46794f7a';
+    let api_key = '';
     const [wIcon, setWIcon] = useState(cloud_icon);
     const search = async ()=>{
         const input = document.getElementsByClassName('cityInput');
